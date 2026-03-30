@@ -1,0 +1,1912 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<section id="home" class="home-section">
+  <div class="home-container">
+
+    <body>
+
+      <div class="bg-float" aria-hidden="true">
+
+        <span class="bg-float__item" style="--x: 6%; --s: 22px; --d: -2s; --t: 22s; --r: 18deg; --o: 0.16;">
+          <svg viewBox="0 0 24 24" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+            <path fill="currentColor" d="M12 2l1.6 6.1L20 10l-6.4 1.9L12 18l-1.6-6.1L4 10l6.4-1.9L12 2Z" />
+          </svg>
+        </span>
+        <span class="bg-float__item" style="--x: 14%; --s: 18px; --d: -16s; --t: 30s; --r: -10deg; --o: 0.10;">
+          <svg viewBox="0 0 24 24" width="12" height="12" xmlns="http://www.w3.org/2000/svg">
+            <path fill="currentColor" d="M12 2l1.2 3.9L17 7l-3.8 1.1L12 12l-1.2-3.9L7 7l3.8-1.1L12 2Z" />
+          </svg>
+        </span>
+        <span class="bg-float__item" style="--x: 10%; --s: 24px; --d: -9s; --t: 28s; --r: -26deg; --o: 0.14;">
+          <svg viewBox="0 0 24 24" width="18" height="18" xmlns="http://www.w3.org/2000/svg">
+            <path fill="currentColor"
+              d="M8.7 16.9a1 1 0 0 1-1.4.1l-4-3.4a1 1 0 0 1 0-1.6l4-3.4a1 1 0 1 1 1.3 1.5L5.4 12l3.2 2.9a1 1 0 0 1 .1 1.4Zm6.6 0a1 1 0 0 1 .1-1.4L18.6 12l-3.2-2.9a1 1 0 1 1 1.3-1.5l4 3.4a1 1 0 0 1 0 1.6l-4 3.4a1 1 0 0 1-1.4-.1Z" />
+          </svg>
+        </span>
+        <span class="bg-float__item" style="--x: 92%; --s: 20px; --d: -5s; --t: 24s; --r: 12deg; --o: 0.11;">
+          <svg viewBox="0 0 24 24" width="14" height="14" xmlns="http://www.w3.org/2000/svg">
+            <path fill="currentColor"
+              d="M12 2a1 1 0 0 1 1 1c0 2.2 1.8 4 4 4a1 1 0 1 1 0 2c-2.2 0-4 1.8-4 4a1 1 0 1 1-2 0c0-2.2-1.8-4-4-4a1 1 0 1 1 0-2c2.2 0 4-1.8 4-4a1 1 0 0 1 1-1Z" />
+          </svg>
+        </span>
+        <span class="bg-float__item" style="--x: 86%; --s: 18px; --d: -14s; --t: 20s; --r: 34deg; --o: 0.12;">
+          <svg viewBox="0 0 24 24" width="14" height="14" xmlns="http://www.w3.org/2000/svg">
+            <path fill="currentColor"
+              d="M12 3c-4.4 0-8 1.8-8 4v10c0 2.2 3.6 4 8 4s8-1.8 8-4V7c0-2.2-3.6-4-8-4Zm0 2c3.5 0 6 .9 6 2s-2.5 2-6 2-6-.9-6-2 2.5-2 6-2Zm-6 5.3c1.4 1 3.7 1.7 6 1.7s4.6-.7 6-1.7V12c0 1.1-2.5 2-6 2s-6-.9-6-2v-1.7Zm0 5c1.4 1 3.7 1.7 6 1.7s4.6-.7 6-1.7V17c0 1.1-2.5 2-6 2s-6-.9-6-2v-1.7Z" />
+          </svg>
+        </span>
+        <span class="bg-float__item" style="--x: 4%; --s: 18px; --d: -11s; --t: 27s; --r: -22deg; --o: 0.09;">
+          <svg viewBox="0 0 24 24" width="12" height="12" xmlns="http://www.w3.org/2000/svg">
+            <path fill="currentColor" d="M4 20a1 1 0 0 1-1-1V5a1 1 0 0 1 2 0v13h16a1 1 0 1 1 0 2H4Z" />
+          </svg>
+        </span>
+        <span class="bg-float__item" style="--x: 96%; --s: 24px; --d: -6s; --t: 26s; --r: -14deg; --o: 0.13;">
+          <svg viewBox="0 0 24 24" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+            <path fill="currentColor"
+              d="M4 20a1 1 0 0 1-1-1V5a1 1 0 0 1 2 0v13h16a1 1 0 1 1 0 2H4Zm4-3a1 1 0 0 1-1-1v-6a1 1 0 1 1 2 0v6a1 1 0 0 1-1 1Zm5 0a1 1 0 0 1-1-1v-4a1 1 0 1 1 2 0v4a1 1 0 0 1-1 1Zm5 0a1 1 0 0 1-1-1v-4a1 1 0 1 1 2 0v4a1 1 0 0 1-1 1Z" />
+          </svg>
+        </span>
+        <span class="bg-float__item" style="--x: 90%; --s: 18px; --d: -20s; --t: 34s; --r: 8deg; --o: 0.08;">
+          <svg viewBox="0 0 24 24" width="12" height="12" xmlns="http://www.w3.org/2000/svg">
+            <path fill="currentColor" d="M12 2l1.6 6.1L20 10l-6.4 1.9L12 18l-1.6-6.1L4 10l6.4-1.9L12 2Z" />
+          </svg>
+        </span>
+        <span class="bg-float__item" style="--x: 8%; --s: 20px; --d: -18s; --t: 24s; --r: 22deg; --o: 0.12;">
+          <svg viewBox="0 0 24 24" width="14" height="14" xmlns="http://www.w3.org/2000/svg">
+            <path fill="currentColor"
+              d="M12 2a1 1 0 0 1 1 1c0 2.2 1.8 4 4 4a1 1 0 1 1 0 2c-2.2 0-4 1.8-4 4a1 1 0 1 1-2 0c0-2.2-1.8-4-4-4a1 1 0 1 1 0-2c2.2 0 4-1.8 4-4a1 1 0 0 1 1-1Z" />
+          </svg>
+        </span>
+        <span class="bg-float__item" style="--x: 94%; --s: 18px; --d: -7s; --t: 23s; --r: -18deg; --o: 0.09;">
+          <svg viewBox="0 0 24 24" width="12" height="12" xmlns="http://www.w3.org/2000/svg">
+            <path fill="currentColor"
+              d="M8.7 16.9a1 1 0 0 1-1.4.1l-4-3.4a1 1 0 0 1 0-1.6l4-3.4a1 1 0 1 1 1.3 1.5L5.4 12l3.2 2.9a1 1 0 0 1 .1 1.4Z" />
+          </svg>
+        </span>
+        <span class="bg-float__item" style="--x: 5%; --s: 26px; --d: -3s; --t: 32s; --r: -30deg; --o: 0.14;">
+          <svg viewBox="0 0 24 24" width="18" height="18" xmlns="http://www.w3.org/2000/svg">
+            <path fill="currentColor"
+              d="M7 3a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm10 12a3 3 0 1 1 0 6 3 3 0 0 1 0-6ZM6 9a1 1 0 0 1 2 0v7.2a4.8 4.8 0 0 0 4.8 4.8H14a1 1 0 1 1 0 2h-1.2A6.8 6.8 0 0 1 6 16.2V9Z" />
+          </svg>
+        </span>
+        <span class="bg-float__item" style="--x: 97%; --s: 22px; --d: -22s; --t: 29s; --r: 26deg; --o: 0.10;">
+          <svg viewBox="0 0 24 24" width="14" height="14" xmlns="http://www.w3.org/2000/svg">
+            <path fill="currentColor"
+              d="M12 3a1 1 0 0 1 1 1v1h2V4a1 1 0 1 1 2 0v1h1a2 2 0 0 1 2 2v2h1a1 1 0 1 1 0 2h-1v4h1a1 1 0 1 1 0 2h-1v2a2 2 0 0 1-2 2h-1v1a1 1 0 1 1-2 0v-1h-2v1a1 1 0 1 1-2 0v-1H7a2 2 0 0 1-2-2v-2H4a1 1 0 1 1 0-2h1v-4H4a1 1 0 1 1 0-2h1V7a2 2 0 0 1 2-2h3V4a1 1 0 0 1 1-1Z" />
+          </svg>
+        </span>
+        <span class="bg-float__item" style="--x: 88%; --s: 20px; --d: -12s; --t: 21s; --r: 28deg; --o: 0.15;">
+          <svg viewBox="0 0 24 24" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+            <path fill="currentColor"
+              d="M12 2l1.2 3.9L17 7l-3.8 1.1L12 12l-1.2-3.9L7 7l3.8-1.1L12 2Zm7 9 1 3.2 3 1-3 1-1 3.2-1-3.2-3-1 3-1 1-3.2ZM4 13l1 3.2 3 1-3 1L4 21.4 3 18.2l-3-1 3-1L4 13Z" />
+          </svg>
+        </span>
+        <span class="bg-float__item" style="--x: 12%; --s: 18px; --d: -4s; --t: 25s; --r: -8deg; --o: 0.10;">
+          <svg viewBox="0 0 24 24" width="12" height="12" xmlns="http://www.w3.org/2000/svg">
+            <path fill="currentColor" d="M12 2l1.6 6.1L20 10l-6.4 1.9L12 18l-1.6-6.1L4 10l6.4-1.9L12 2Z" />
+          </svg>
+        </span>
+
+        <span class="bg-float__item" style="--x: 7%; --s: 22px; --d: -15s; --t: 33s; --r: 10deg; --o: 0.18;">
+          <svg viewBox="0 0 24 24" width="18" height="18" xmlns="http://www.w3.org/2000/svg">
+            <path fill="currentColor"
+              d="M12 .8a11.2 11.2 0 0 0-3.5 21.8c.6.1.8-.2.8-.6v-2.1c-3.2.7-3.8-1.4-3.8-1.4-.6-1.3-1.3-1.7-1.3-1.7-1-.6.1-.6.1-.6 1.1.1 1.7 1.1 1.7 1.1 1 .1.6-.2 1.8-.5.1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.8 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.2 0 4.5-2.7 5.5-5.3 5.8.4.3.8 1 .8 2.1V22c0 .4.2.7.8.6A11.2 11.2 0 0 0 12 .8Z" />
+          </svg>
+        </span>
+
+        <span class="bg-float__item" style="--x: 93%; --s: 22px; --d: -8s; --t: 31s; --r: -16deg; --o: 0.18;">
+          <svg viewBox="0 0 24 24" width="18" height="18" xmlns="http://www.w3.org/2000/svg">
+            <path fill="currentColor"
+              d="M22 12.06V22a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v8.06Z" />
+            <path fill="currentColor"
+              d="M6.8 9.2a1.3 1.3 0 1 1 0-2.6 1.3 1.3 0 0 1 0 2.6Zm-1 8.9V10.4h2V18H5.8Zm4-7.7h1.9v1.1h.1c.3-.6 1.1-1.2 2.3-1.2 2.5 0 3 1.6 3 3.7V18h-2v-3.3c0-.8 0-1.9-1.2-1.9s-1.4.9-1.4 1.9V18h-2v-7.6Z"
+              opacity="0.9" />
+          </svg>
+        </span>
+
+        <span class="bg-float__item" style="--x: 4%; --s: 20px; --d: -21s; --t: 29s; --r: 14deg; --o: 0.14;">
+          <svg viewBox="0 0 24 24" width="18" height="18" xmlns="http://www.w3.org/2000/svg">
+            <path fill="currentColor"
+              d="M15.6 3.2a1.2 1.2 0 0 1 1.7 0l1.5 1.5a1.2 1.2 0 0 1 0 1.7l-6.7 6.7a1.2 1.2 0 0 1-1.7-1.7l6.7-6.7-1.5-1.5a1.2 1.2 0 0 1 0-1.7Z" />
+            <path fill="currentColor"
+              d="M10.7 6.6a4.8 4.8 0 0 0-3.4 1.4l-3.6 3.6a4.8 4.8 0 0 0 0 6.8l1.9 1.9a4.8 4.8 0 0 0 6.8 0l3.6-3.6a1.2 1.2 0 0 0-1.7-1.7l-3.6 3.6a2.4 2.4 0 0 1-3.4 0l-1.9-1.9a2.4 2.4 0 0 1 0-3.4l3.6-3.6a2.4 2.4 0 0 1 3.4 0 1.2 1.2 0 1 0 1.7-1.7 4.8 4.8 0 0 0-3.4-1.4Z" />
+            <path fill="currentColor" d="M9 12.3h6.8a1.2 1.2 0 1 1 0 2.4H9a1.2 1.2 0 1 1 0-2.4Z" opacity="0.9" />
+          </svg>
+        </span>
+
+        <span class="bg-float__item" style="--x: 96%; --s: 20px; --d: -11s; --t: 28s; --r: -22deg; --o: 0.15;">
+          <div class="bg-float__badge">HR</div>
+        </span>
+
+        <span class="bg-float__item" style="--x: 8%; --s: 22px; --d: -6s; --t: 30s; --r: 18deg; --o: 0.15;">
+          <div class="bg-float__badge">TF</div>
+        </span>
+
+        <span class="bg-float__item" style="--x: 90%; --s: 22px; --d: -19s; --t: 34s; --r: -12deg; --o: 0.15;">
+          <div class="bg-float__badge">PY</div>
+        </span>
+
+        <span class="bg-float__item" style="--x: 12%; --s: 24px; --d: -27s; --t: 36s; --r: 10deg; --o: 0.14;">
+          <div class="bg-float__badge">C++</div>
+        </span>
+
+        <span class="bg-float__item" style="--x: 95%; --s: 24px; --d: -23s; --t: 37s; --r: 22deg; --o: 0.14;">
+          <div class="bg-float__badge">HDP</div>
+        </span>
+
+        <span class="bg-float__item" style="--x: 6%; --s: 24px; --d: -10s; --t: 35s; --r: -14deg; --o: 0.14;">
+          <div class="bg-float__badge">DKR</div>
+        </span>
+
+        <span class="bg-float__item" style="--x: 92%; --s: 24px; --d: -2s; --t: 33s; --r: 16deg; --o: 0.14;">
+          <div class="bg-float__badge">GIT</div>
+        </span>
+      </div>
+
+      <!--
+    - #MAIN
+  -->
+      <!-- ------------------------------------------------------------------------------------------------- -->
+      <main>
+
+        <!--
+      - #SIDEBAR
+    -->
+
+        <aside class="sidebar" data-sidebar>
+
+          <div class="sidebar-info">
+
+            <figure class="avatar-box">
+              <img src="./assets/images/Parvez.png" alt="Md Parvezuddin" width="80">
+            </figure>
+
+            <div class="info-content">
+              <h1 class="name" title="Md Parvezuddin">Md Parvezuddin</h1>
+
+              <p class="title">Aspiring AI Engineer</p>
+            </div>
+
+            <button class="info_more-btn" data-sidebar-btn>
+              <span>Show Contacts</span>
+
+              <ion-icon name="chevron-down"></ion-icon>
+            </button>
+
+          </div>
+
+          <div class="sidebar-info_more">
+
+            <div class="separator"></div>
+
+            <ul class="contacts-list">
+
+              <li class="contact-item">
+
+                <a class="contact-item-link" href="mailto:riteshkumarpaswan538@gmail.com">
+                  <div class="icon-box">
+                    <ion-icon name="mail-outline"></ion-icon>
+                  </div>
+
+                  <div class="contact-info">
+                    <p class="contact-title">Email</p>
+
+                    <span class="contact-link">mdparvez5546@gmail.com</span>
+                  </div>
+                </a>
+
+              </li>
+
+              <li class="contact-item">
+
+                <a class="contact-item-link" href="tel:+917217742987">
+                  <div class="icon-box">
+                    <ion-icon name="phone-portrait-outline"></ion-icon>
+                  </div>
+
+                  <div class="contact-info">
+                    <p class="contact-title">Phone</p>
+
+                    <span class="contact-link">+91 7217742987</span>
+                  </div>
+                </a>
+
+              </li>
+
+              <!-- <li class="contact-item">
+
+                <div class="icon-box">
+                  <ion-icon name="calendar-outline"></ion-icon>
+                </div> -->
+
+              <!-- <div class="contact-info">
+                  <p class="contact-title">Birthday</p>
+
+                  <time datetime="2003-12-23">Dec 23, 2003</time>
+                </div> -->
+
+              </li>
+
+              <li class="contact-item">
+
+                <a class="contact-item-link" href="https://www.google.com/maps?q=Punjab%2C%20India" target="_blank"
+                  rel="noopener noreferrer">
+                  <div class="icon-box">
+                    <ion-icon name="location-outline"></ion-icon>
+                  </div>
+
+                  <div class="contact-info">
+                    <p class="contact-title">Location</p>
+
+                    <address>Punjab, India</address>
+                  </div>
+                </a>
+
+              </li>
+
+            </ul>
+
+            <div class="separator"></div>
+
+            <ul class="social-list">
+
+              <!-- <li class="social-item">
+                <a href="https://leetcode.com/u/ritesh_1223/" class="social-link" target="_blank">
+                  <span class="brand-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" width="26" height="26" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg">
+                      <title>LeetCode</title>
+                      <path fill="#FFA116" d="M15.6 3.2a1.2 1.2 0 0 1 1.7 0l1.5 1.5a1.2 1.2 0 0 1 0 1.7l-6.7 6.7a1.2 1.2 0 0 1-1.7-1.7l6.7-6.7-1.5-1.5a1.2 1.2 0 0 1 0-1.7Z"/>
+                      <path fill="#FFA116" d="M10.7 6.6a4.8 4.8 0 0 0-3.4 1.4l-3.6 3.6a4.8 4.8 0 0 0 0 6.8l1.9 1.9a4.8 4.8 0 0 0 6.8 0l3.6-3.6a1.2 1.2 0 0 0-1.7-1.7l-3.6 3.6a2.4 2.4 0 0 1-3.4 0l-1.9-1.9a2.4 2.4 0 0 1 0-3.4l3.6-3.6a2.4 2.4 0 0 1 3.4 0 1.2 1.2 0 1 0 1.7-1.7 4.8 4.8 0 0 0-3.4-1.4Z"/>
+                      <path fill="#FFFFFF" d="M9 12.3h6.8a1.2 1.2 0 1 1 0 2.4H9a1.2 1.2 0 1 1 0-2.4Z" opacity="0.9"/>
+                    </svg>
+                  </span>
+                </a>
+              </li> -->
+
+              <li class="social-item">
+                <a href="mailto:mdparvez5546@gmail.com" class="social-link">
+                  <span class="brand-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" width="26" height="26" role="img" focusable="false"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <title>Email</title>
+                      <path fill="#EA4335" d="M12 13.5 2 6.75V18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6.75L12 13.5Z" />
+                      <path fill="#FBBC05" d="M22 6.75V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v.75l10 6.75 10-6.75Z" />
+                    </svg>
+                  </span>
+                </a>
+              </li>
+
+              <li class="social-item">
+                <a href="https://www.linkedin.com/in/md-parvezuddin/" class="social-link">
+                  <span class="brand-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" width="26" height="26" role="img" focusable="false"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <title>LinkedIn</title>
+                      <path fill="#0A66C2"
+                        d="M22 12.06V22a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v8.06Z" />
+                      <path fill="#FFFFFF"
+                        d="M6.8 9.2a1.3 1.3 0 1 1 0-2.6 1.3 1.3 0 0 1 0 2.6Zm-1 8.9V10.4h2V18H5.8Zm4-7.7h1.9v1.1h.1c.3-.6 1.1-1.2 2.3-1.2 2.5 0 3 1.6 3 3.7V18h-2v-3.3c0-.8 0-1.9-1.2-1.9s-1.4.9-1.4 1.9V18h-2v-7.6Z" />
+                    </svg>
+                  </span>
+                </a>
+              </li>
+
+              <li class="social-item">
+                <a href="https://github.com/mdparvezuddin" class="social-link">
+                  <span class="brand-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" width="26" height="26" role="img" focusable="false"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <title>GitHub</title>
+                      <path fill="#FFFFFF"
+                        d="M12 .8a11.2 11.2 0 0 0-3.5 21.8c.6.1.8-.2.8-.6v-2.1c-3.2.7-3.8-1.4-3.8-1.4-.6-1.3-1.3-1.7-1.3-1.7-1-.6.1-.6.1-.6 1.1.1 1.7 1.1 1.7 1.1 1 .1.6-.2 1.8-.5.1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.8 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.2 0 4.5-2.7 5.5-5.3 5.8.4.3.8 1 .8 2.1V22c0 .4.2.7.8.6A11.2 11.2 0 0 0 12 .8Z" />
+                    </svg>
+                  </span>
+                </a>
+              </li>
+
+            </ul>
+
+            <div class="separator"></div>
+
+          </div>
+
+        </aside>
+
+
+        <!-- ----------------------------------------------------------------------------------------------- -->
+
+
+        <!--
+      - #main-content
+    -->
+
+        <div class="main-content">
+
+          <!--
+        - #NAVBAR
+      -->
+
+          <nav class="navbar">
+
+            <ul class="navbar-list">
+
+              <!-- <li class="navbar-item">
+                <button class="navbar-link  active" data-nav-link>Home</button>
+              </li> -->
+
+              <li class="navbar-item">
+                <button class="navbar-link  active" data-nav-link>About Me</button>
+              </li>
+
+              <li class="navbar-item">
+                <button class="navbar-link" data-nav-link>Skills</button>
+              </li>
+
+              <li class="navbar-item">
+                <button class="navbar-link" data-nav-link>Education</button>
+              </li>
+
+              <li class="navbar-item">
+                <button class="navbar-link" data-nav-link>Projects</button>
+              </li>
+
+              <li class="navbar-item">
+                <button class="navbar-link" data-nav-link>Certificates</button>
+              </li>
+
+              <li class="navbar-item">
+                <button class="navbar-link" data-nav-link>Resume</button>
+              </li>
+
+              <li class="navbar-item">
+                <button class="navbar-link" data-nav-link>Contact</button>
+              </li>
+
+            </ul>
+
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle theme">
+              <ion-icon name="moon-outline"></ion-icon>
+            </button>
+
+          </nav>
+
+
+
+          <!-- ---------------------------------------------------------------------------------------------------- -->
+
+          <!--
+        - #ABOUT
+      -->
+
+          <article class="about  active" data-page="about">
+
+            <header>
+              <h2 class="h2 article-title">About Me</h2>
+              <!-- <p class="about-tagline">Turning data into decisions.</p> -->
+            </header>
+
+            <section class="about-text">
+              <p>
+                I’m Md Parvez Uddin, and my graph didn’t shoot up overnight—it’s been climbing one careful step at a
+                time. The first point on that curve was the moment I realized algorithms could do more than just pass
+                exams—they could help doctors, patients, and real people. That idea pulled me into AI and ML during my
+                B.Tech CSE at LPU and refused to let go.
+
+
+              <p>
+                Early on, my experiments were messy: models overfitting, code breaking, and concepts that only made
+                sense at 2 a.m. after three attempts. Things shifted when I started working on medical AI projects like
+                tuberculosis detection from chest X‑rays and disease prediction from patient symptoms; suddenly, the
+                math on the screen felt connected to lives off the screen. Even exploring real‑time heart‑rate
+                estimation with a phone camera made me see how AI could live in everyday devices.
+              </p>
+
+              <p>
+                Today, I’m deliberately sharpening my skills in applied ML, computer vision, and healthcare-focused AI,
+                guided by a personal rule: never compromise integrity, always aim for meaningful impact. The next part
+                of the curve for me is becoming an AI engineer who builds systems that are not just impressive—but
+                genuinely useful to society
+              </p>
+            </section>
+
+            <!--
+          - service
+        -->
+            <!-- ------------------------------------------------------------------------------------------------------------- -->
+            <!-- <section class="service"> -->
+
+            <!-- <h3 class="h3 service-title">What I’m Doing</h3>
+
+              <ul class="service-list">
+
+                <li class="service-item">
+
+                  <div class="service-icon-box">
+                    <ion-icon name="analytics-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Data Analysis</h4>
+
+                    <p class="service-item-text">
+                      Analyzing datasets using Python and SQL to extract insights and support data-driven decisions.
+                    </p>
+                  </div>
+
+                </li> -->
+
+            <!-- <li class="service-item">
+
+                  <div class="service-icon-box">
+                    <ion-icon name="hardware-chip-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Machine Learning</h4>
+
+                    <p class="service-item-text">
+                      Building and evaluating predictive models using Scikit-learn and applying ML techniques to
+                      real-world problems.
+                    </p>
+                  </div>
+
+                </li> -->
+            <!-- 
+                <li class="service-item">
+
+                  <div class="service-icon-box">
+                    <ion-icon name="grid-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Dashboard Development</h4>
+
+                    <p class="service-item-text">
+                      Designing interactive dashboards using Power BI to track KPIs and support business decisions.
+                    </p>
+                  </div>
+
+                </li> -->
+
+            <!-- <li class="service-item">
+
+                  <div class="service-icon-box">
+                    <ion-icon name="stats-chart-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Data Visualization</h4>
+
+                    <p class="service-item-text">
+                      Creating clear and impactful visualizations to communicate insights using Matplotlib, Seaborn, and
+                      Power BI.
+                    </p>
+                  </div>
+
+                </li> -->
+
+            <!-- <li class="service-item">
+
+                  <div class="service-icon-box">
+                    <ion-icon name="git-branch-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">DevOps & Deployment</h4>
+
+                    <p class="service-item-text">
+                      Implementing CI/CD pipelines, containerization with Docker, and version control using Git &
+                      GitHub.
+                    </p>
+                  </div>
+
+                </li> -->
+
+            <!-- <li class="service-item">
+
+                  <div class="service-icon-box">
+                    <ion-icon name="bulb-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Problem Solving / Analytics Thinking</h4>
+
+                    <p class="service-item-text">
+                      Applying analytical thinking and problem-solving skills to real-world data challenges.
+                    </p>
+                  </div>
+
+                </li>
+
+              </ul> -->
+
+            <!-- </section> -->
+
+            <blockquote class="about-quote">
+              I enjoy working on data-driven solutions and collaborating on meaningful projects.
+            </blockquote>
+          </article>
+          <!-- --------------------------------------------------------------------------------------------------- -->
+          <article class="skills" data-page="skills">
+
+            <header>
+              <h2 class="h2 article-title">Skills</h2>
+            </header>
+
+            <section class="skills">
+
+              <!-- ── CORE ─────────────────────────────────── -->
+              <div class="skills-section">
+                <div class="skills-section-heading">
+                  <span class="skills-section-line"></span>
+                  <span class="skills-section-title">CORE</span>
+                  <span class="skills-section-line"></span>
+                </div>
+
+                <div class="skills-cards">
+
+                  <section class="content-card skills-card">
+                    <h4 class="h4 skills-card-title">
+                      <span class="skills-title-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="18" height="18" role="img" focusable="false"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path fill="currentColor"
+                            d="M9 3a1 1 0 0 1 1 1v1h4V4a1 1 0 1 1 2 0v1h1a2 2 0 0 1 2 2v1h1a1 1 0 1 1 0 2h-1v4h1a1 1 0 1 1 0 2h-1v1a2 2 0 0 1-2 2h-1v1a1 1 0 1 1-2 0v-1h-4v1a1 1 0 1 1-2 0v-1H7a2 2 0 0 1-2-2v-1H4a1 1 0 1 1 0-2h1v-4H4a1 1 0 1 1 0-2h1V7a2 2 0 0 1 2-2h2V4a1 1 0 0 1 1-1Zm-2 4v10h10V7H7Z" />
+                        </svg>
+                      </span>
+                      <span>Programming &amp; Languages</span>
+                    </h4>
+                    <div class="skills-box-grid">
+                      <span>Java</span>
+                      <span>Python</span>
+                      <span>JavaScript</span>
+                      <span>HTML5</span>
+                      <span>CSS3</span>
+                      <span>SQL</span>
+                      <span>OOP</span>
+                      <span>Operating Systems</span>
+                      <span>Computer Networks</span>
+                      <span>DBMS</span>
+                    </div>
+                  </section>
+
+                  <section class="content-card skills-card">
+                    <h4 class="h4 skills-card-title">
+                      <span class="skills-title-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="18" height="18" role="img" focusable="false"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path fill="currentColor"
+                            d="M22 12.06V22a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v8.06Z" />
+                          <path fill="#FFFFFF"
+                            d="M6.8 9.2a1.3 1.3 0 1 1 0-2.6 1.3 1.3 0 0 1 0 2.6Zm-1 8.9V10.4h2V18H5.8Zm4-7.7h1.9v1.1h.1c.3-.6 1.1-1.2 2.3-1.2 2.5 0 3 1.6 3 3.7V18h-2v-3.3c0-.8 0-1.9-1.2-1.9s-1.4.9-1.9 1.9V18h-2v-7.6Z" />
+                        </svg>
+                      </span>
+                      <span>Java Full-Stack</span>
+                    </h4>
+                    <div class="skills-box-grid">
+                      <span>Spring Boot</span>
+                      <span>Spring MVC</span>
+                      <span>Spring Security</span>
+                      <span>React.js</span>
+                      <span>Tailwind CSS</span>
+                      <span>REST APIs</span>
+                      <span>Microservices</span>
+                      <span>MySQL</span>
+                      <span>MongoDB</span>
+                      <span>PostgreSQL</span>
+                      <span>Maven</span>
+                    </div>
+                  </section>
+
+                </div>
+              </div>
+
+              <!-- ── AI & MACHINE LEARNING ─────────────────── -->
+              <div class="skills-section">
+                <div class="skills-section-heading">
+                  <span class="skills-section-line"></span>
+                  <span class="skills-section-title">AI &amp; MACHINE LEARNING</span>
+                  <span class="skills-section-line"></span>
+                </div>
+
+                <div class="skills-cards">
+
+                  <section class="content-card skills-card">
+                    <h4 class="h4 skills-card-title">
+                      <span class="skills-title-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="18" height="18" role="img" focusable="false"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path fill="currentColor"
+                            d="M12 2a1 1 0 0 1 1 1c0 2.2 1.8 4 4 4a1 1 0 1 1 0 2c-2.2 0-4 1.8-4 4a1 1 0 1 1-2 0c0-2.2-1.8-4-4-4a1 1 0 1 1 0-2c2.2 0 4-1.8 4-4a1 1 0 0 1 1-1Z" />
+                          <path fill="currentColor"
+                            d="M7 14a1 1 0 0 1 1 1c0 1.7 1.3 3 3 3a1 1 0 0 1 0 2c-1.7 0-3 1.3-3 3a1 1 0 1 1-2 0c0-1.7-1.3-3-3-3a1 1 0 1 1 0-2c1.7 0 3-1.3 3-3a1 1 0 0 1 1-1Zm11-3a1 1 0 0 1 1 1c0 1.1.9 2 2 2a1 1 0 1 1 0 2c-1.1 0-2 .9-2 2a1 1 0 1 1-2 0c0-1.1-.9-2-2-2a1 1 0 1 1 0-2c1.1 0 2-.9 2-2a1 1 0 0 1 1-1Z" />
+                        </svg>
+                      </span>
+                      <span>Core AI &amp; ML</span>
+                    </h4>
+                    <ul class="skills-bullets">
+                      <li>Supervised &amp; Unsupervised Learning</li>
+                      <li>Feature Engineering &amp; Selection</li>
+                      <li>Model Evaluation (Precision, Recall, F1, ROC-AUC)</li>
+                      <li>Hyperparameter Tuning</li>
+                      <li>Cross-validation Techniques</li>
+                      <li>TensorFlow, Scikit-learn, Pandas, NumPy</li>
+                    </ul>
+                  </section>
+
+                  <section class="content-card skills-card">
+                    <h4 class="h4 skills-card-title">
+                      <span class="skills-title-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="18" height="18" role="img" focusable="false"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path fill="currentColor"
+                            d="M9 3a1 1 0 0 1 1 1v1h4V4a1 1 0 1 1 2 0v1h1a2 2 0 0 1 2 2v1h1a1 1 0 1 1 0 2h-1v4h1a1 1 0 1 1 0 2h-1v1a2 2 0 0 1-2 2h-1v1a1 1 0 1 1-2 0v-1h-4v1a1 1 0 1 1-2 0v-1H7a2 2 0 0 1-2-2v-1H4a1 1 0 1 1 0-2h1v-4H4a1 1 0 1 1 0-2h1V7a2 2 0 0 1 2-2h2V4a1 1 0 0 1 1-1Z" />
+                        </svg>
+                      </span>
+                      <span>Deep Learning &amp; GenAI</span>
+                    </h4>
+                    <ul class="skills-bullets">
+                      <li>Neural Networks, CNNs, RNNs &amp; LSTMs</li>
+                      <li>Transfer Learning (ResNet, VGG)</li>
+                      <li>Computer Vision (OpenCV)</li>
+                      <li>Generative AI &amp; LLMs</li>
+                      <li>RAG (Retrieval-Augmented Generation)</li>
+                      <li>PyTorch, Hugging Face, Matplotlib, Seaborn</li>
+                    </ul>
+                  </section>
+
+                </div>
+              </div>
+
+              <!-- ── TOOLS & PROFESSIONAL ───────────────────── -->
+              <div class="skills-section">
+                <div class="skills-section-heading">
+                  <span class="skills-section-line"></span>
+                  <span class="skills-section-title">TOOLS &amp; PROFESSIONAL</span>
+                  <span class="skills-section-line"></span>
+                </div>
+
+                <div class="skills-cards">
+
+                  <section class="content-card skills-card">
+                    <h4 class="h4 skills-card-title">
+                      <span class="skills-title-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="18" height="18" role="img" focusable="false"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path fill="currentColor"
+                            d="M15.6 3.2a1.2 1.2 0 0 1 1.7 0l1.5 1.5a1.2 1.2 0 0 1 0 1.7l-6.7 6.7a1.2 1.2 0 0 1-1.7-1.7l6.7-6.7-1.5-1.5a1.2 1.2 0 0 1 0-1.7Z" />
+                          <path fill="currentColor"
+                            d="M10.7 6.6a4.8 4.8 0 0 0-3.4 1.4l-3.6 3.6a4.8 4.8 0 0 0 0 6.8l1.9 1.9a4.8 4.8 0 0 0 6.8 0l3.6-3.6a1.2 1.2 0 0 0-1.7-1.7l-3.6 3.6a2.4 2.4 0 0 1-3.4 0l-1.9-1.9a2.4 2.4 0 0 1 0-3.4l3.6-3.6a2.4 2.4 0 0 1 3.4 0 1.2 1.2 0 1 0 1.7-1.7 4.8 4.8 0 0 0-3.4-1.4Z" />
+                          <path fill="currentColor" d="M9 12.3h6.8a1.2 1.2 0 1 1 0 2.4H9a1.2 1.2 0 1 1 0-2.4Z" />
+                        </svg>
+                      </span>
+                      <span>Tools &amp; Platforms</span>
+                    </h4>
+                    <div class="skills-box-grid">
+                      <span>Git</span>
+                      <span>GitHub</span>
+                      <span>Docker</span>
+                      <span>VS Code</span>
+                      <span>IntelliJ IDEA</span>
+                      <span>Jupyter Notebook</span>
+                      <span>Google Colab</span>
+                      <span>Linux CLI</span>
+                      <span>Streamlit</span>
+                      <span>Postman</span>
+                    </div>
+                  </section>
+
+                  <section class="content-card skills-card">
+                    <h4 class="h4 skills-card-title">
+                      <span class="skills-title-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="18" height="18" role="img" focusable="false"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path fill="currentColor"
+                            d="M7 3a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm10 12a3 3 0 1 1 0 6 3 3 0 0 1 0-6ZM6 9a1 1 0 0 1 2 0v7.2a4.8 4.8 0 0 0 4.8 4.8H14a1 1 0 1 1 0 2h-1.2A6.8 6.8 0 0 1 6 16.2V9Zm10-7a1 1 0 0 1 1 1v7.2A4.8 4.8 0 0 1 12.2 15H11a1 1 0 1 1 0-2h1.2A2.8 2.8 0 0 0 15 10.2V3a1 1 0 0 1 1-1Z" />
+                        </svg>
+                      </span>
+                      <span>Soft Skills</span>
+                    </h4>
+                    <ul class="skills-bullets">
+                      <li>Problem Solving &amp; Critical Thinking</li>
+                      <li>Adaptability &amp; Quick Learning</li>
+                      <li>Communication &amp; Collaboration</li>
+                      <li>Code Review &amp; Technical Documentation</li>
+                      <li>Self-directed Learning</li>
+                      <li>Project Management &amp; Time Management</li>
+                    </ul>
+                  </section>
+
+                </div>
+              </div>
+
+            </section>
+
+          </article>
+
+
+          <!-- ------------------------------------------------------------------------------------------------------- -->
+          <article class="education" data-page="education">
+
+            <header>
+              <h2 class="h2 article-title">Education</h2>
+            </header>
+
+            <section class="education-timeline">
+
+              <!-- Entry 1: UG (top) -->
+              <div class="timeline-entry left">
+                <div class="timeline-content">
+                  <div class="edu-card">
+                    <span class="edu-badge">UG</span>
+                    <h4 class="edu-school">Lovely Professional University, Punjab</h4>
+                    <!-- <p class="edu-board">IKG PTU — Punjab Technical University</p> -->
+                    <p class="edu-year">2023 – 2027</p>
+                  </div>
+                </div>
+                <div class="timeline-center">
+                  <div class="timeline-sphere ug">
+                    <span>UG</span>
+                    <div class="sphere-ring"></div>
+                  </div>
+                  <div class="timeline-stem"></div>
+                </div>
+                <div class="timeline-spacer"></div>
+              </div>
+
+              <!-- Entry 2: 12th (middle) -->
+              <div class="timeline-entry right">
+                <div class="timeline-spacer"></div>
+                <div class="timeline-center">
+                  <div class="timeline-stem"></div>
+                  <div class="timeline-sphere twelfth">
+                    <span>12th</span>
+                    <div class="sphere-ring"></div>
+                  </div>
+                  <div class="timeline-stem"></div>
+                </div>
+                <div class="timeline-content">
+                  <div class="edu-card">
+                    <span class="edu-badge">12th</span>
+                    <h4 class="edu-school">Govt. Senior Secondary School</h4>
+                    <p class="edu-location">Gurugram</p>
+                    <p class="edu-year">2022 – 2023</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Entry 3: 10th (bottom) -->
+              <div class="timeline-entry left">
+                <div class="timeline-content">
+                  <div class="edu-card">
+                    <span class="edu-badge">10th</span>
+                    <h4 class="edu-school">Shree Ram Sr Secondary School</h4>
+                    <p class="edu-location">Gurugram</p>
+                    <p class="edu-year">2020 – 2021</p>
+                  </div>
+                </div>
+                <div class="timeline-center">
+                  <div class="timeline-stem"></div>
+                  <div class="timeline-sphere tenth">
+                    <span>10th</span>
+                    <div class="sphere-ring"></div>
+                  </div>
+                </div>
+                <div class="timeline-spacer"></div>
+              </div>
+
+            </section>
+
+          </article>
+          <!-- ---------------------------------------------------------------------------------------------------- -->
+          <article class="portfolio" data-page="portfolio">
+
+            <header>
+              <h2 class="h2 article-title">Projects</h2>
+            </header>
+
+            <section class="projects">
+
+              <ul class="filter-list">
+                <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+                <li class="filter-item"><button data-filter-btn>Deep Learning</button></li>
+                <li class="filter-item"><button data-filter-btn>Machine Learning</button></li>
+                <li class="filter-item"><button data-filter-btn>Web App</button></li>
+                <li class="filter-item"><button data-filter-btn>Systems</button></li>
+              </ul>
+
+              <div class="filter-select-box">
+                <button class="filter-select" data-select>
+                  <div class="select-value" data-select-value>Select category</div>
+                  <div class="select-icon"><ion-icon name="chevron-down"></ion-icon></div>
+                </button>
+                <ul class="select-list">
+                  <li class="select-item"><button data-select-item>All</button></li>
+                  <li class="select-item"><button data-select-item>Deep Learning</button></li>
+                  <li class="select-item"><button data-select-item>Machine Learning</button></li>
+                  <li class="select-item"><button data-select-item>Web App</button></li>
+                  <li class="select-item"><button data-select-item>Systems</button></li>
+                </ul>
+              </div>
+
+              <ul class="proj-grid">
+
+                <!-- 1. Heart Rate -->
+                <li class="proj-card active" data-filter-item data-category="deep learning">
+                  <div class="proj-card-inner">
+
+                    <div class="proj-thumb thumb-heart">
+                      <div class="proj-thumb-bg"></div>
+                      <svg class="proj-thumb-icon" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="none" stroke="#f87171" stroke-width="3.5" stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M40 68S10 50 10 28a18 18 0 0 1 30-9 18 18 0 0 1 30 9c0 22-30 40-30 40Z" />
+                        <polyline fill="none" stroke="#fca5a5" stroke-width="2.5" stroke-linecap="round"
+                          points="10,40 20,40 25,27 32,54 38,34 43,44 49,36 56,40 70,40" />
+                      </svg>
+                      <div class="proj-category-pill">Deep Learning</div>
+                      <div class="proj-date-pill">Sep – Nov 2025</div>
+                    </div>
+
+                    <div class="proj-body">
+                      <h3 class="proj-name">Real-Time Heart Rate Estimation</h3>
+                      <p class="proj-desc">
+                        CNN-based rPPG pipeline using MTTS-CAN, OpenCV &amp; TensorFlow to extract real-time heart rate
+                        from
+                        facial video via phone camera with <strong>±2 BPM accuracy</strong> — zero wearables needed.
+                      </p>
+
+                      <div class="proj-features">
+                        <p class="proj-features-label">Key Features</p>
+                        <ul>
+                          <li>MTTS-CAN architecture for signal extraction</li>
+                          <li>Real-time facial video processing</li>
+                          <li>Mobile-ready, CUDA-optimized pipeline</li>
+                        </ul>
+                      </div>
+
+                      <div class="proj-stats-row">
+                        <span class="proj-stat-badge">±2 BPM</span>
+                        <span class="proj-stat-badge">No Wearables</span>
+                        <span class="proj-stat-badge">Real-Time</span>
+                      </div>
+
+                      <div class="proj-tech-row">
+                        <span>TensorFlow</span><span>OpenCV</span><span>CNN</span><span>Python</span><span>CUDA</span>
+                      </div>
+
+                      <div class="proj-actions">
+                        <a href="YOUR_GITHUB_LINK_HERE" target="_blank" rel="noopener" class="proj-git-btn">
+                          <svg viewBox="0 0 24 24" width="15" height="15" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="currentColor"
+                              d="M12 .8a11.2 11.2 0 0 0-3.5 21.8c.6.1.8-.2.8-.6v-2.1c-3.2.7-3.8-1.4-3.8-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.6.1-.6 1.1.1 1.7 1.1 1.7 1.1 1 1.7 2.6 1.2 3.2.9.1-.7.4-1.2.7-1.5-2.5-.3-5.2-1.3-5.2-5.7 0-1.3.5-2.3 1.2-3.2-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.2 0 4.5-2.7 5.5-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .4.2.7.8.6A11.2 11.2 0 0 0 12 .8Z" />
+                          </svg>
+                          GitHub
+                        </a>
+                        <div class="proj-status-badge status-completed">
+                          <span class="status-dot"></span> Completed
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </li>
+
+                <!-- 2. AI-TB Detection -->
+                <li class="proj-card active" data-filter-item data-category="deep learning">
+                  <div class="proj-card-inner">
+
+                    <div class="proj-thumb thumb-tb">
+                      <div class="proj-thumb-bg"></div>
+                      <svg class="proj-thumb-icon" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="28" cy="40" rx="14" ry="26" fill="none" stroke="#818cf8" stroke-width="3" />
+                        <ellipse cx="52" cy="40" rx="14" ry="26" fill="none" stroke="#818cf8" stroke-width="3" />
+                        <path fill="none" stroke="#a5b4fc" stroke-width="2" stroke-linecap="round"
+                          d="M28 16c2 5 4 13 4 24s-2 18-4 24M52 16c-2 5-4 13-4 24s2 18 4 24" />
+                        <circle cx="62" cy="18" r="9" fill="#312e81" stroke="#818cf8" stroke-width="2" />
+                        <path d="M58 18h8M62 14v8" stroke="#c7d2fe" stroke-width="2.2" stroke-linecap="round" />
+                      </svg>
+                      <div class="proj-category-pill">Deep Learning</div>
+                      <div class="proj-date-pill">2025</div>
+                    </div>
+
+                    <div class="proj-body">
+                      <h3 class="proj-name">AI-TB Detection from Chest X-Rays</h3>
+                      <p class="proj-desc">
+                        ResNet50-based TB screening system for early detection in resource-limited settings. Two-stage
+                        transfer
+                        learning outputs a probability score and confidence level for expert triage prioritization.
+                      </p>
+
+                      <div class="proj-features">
+                        <p class="proj-features-label">Key Features</p>
+                        <ul>
+                          <li>Two-stage transfer learning + fine-tuning</li>
+                          <li>Confidence-scored TB probability output</li>
+                          <li>Trained on NIH, Kaggle &amp; Mendeley datasets</li>
+                        </ul>
+                      </div>
+
+                      <div class="proj-stats-row">
+                        <span class="proj-stat-badge accent-purple">98.9% Accuracy</span>
+                        <span class="proj-stat-badge accent-purple">94.3% Sensitivity</span>
+                        <span class="proj-stat-badge accent-purple">ROC-AUC 0.9999</span>
+                      </div>
+
+                      <div class="proj-tech-row">
+                        <span>ResNet50</span><span>TensorFlow</span><span>Transfer Learning</span><span>OpenCV</span>
+                      </div>
+
+                      <div class="proj-actions">
+                        <a href="YOUR_GITHUB_LINK_HERE" target="_blank" rel="noopener" class="proj-git-btn">
+                          <svg viewBox="0 0 24 24" width="15" height="15" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="currentColor"
+                              d="M12 .8a11.2 11.2 0 0 0-3.5 21.8c.6.1.8-.2.8-.6v-2.1c-3.2.7-3.8-1.4-3.8-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.6.1-.6 1.1.1 1.7 1.1 1.7 1.1 1 1.7 2.6 1.2 3.2.9.1-.7.4-1.2.7-1.5-2.5-.3-5.2-1.3-5.2-5.7 0-1.3.5-2.3 1.2-3.2-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.2 0 4.5-2.7 5.5-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .4.2.7.8.6A11.2 11.2 0 0 0 12 .8Z" />
+                          </svg>
+                          GitHub
+                        </a>
+                        <div class="proj-status-badge status-completed">
+                          <span class="status-dot"></span> Completed
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </li>
+
+                <!-- 3. Disease Prediction -->
+                <li class="proj-card active" data-filter-item data-category="machine learning">
+                  <div class="proj-card-inner">
+
+                    <div class="proj-thumb thumb-disease">
+                      <div class="proj-thumb-bg"></div>
+                      <svg class="proj-thumb-icon" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="10" y="26" width="60" height="40" rx="7" fill="none" stroke="#34d399"
+                          stroke-width="3" />
+                        <path fill="none" stroke="#6ee7b7" stroke-width="2.5" stroke-linecap="round"
+                          d="M18 46h8l5-13 8 26 5-18 5 10 7-5" />
+                        <rect x="28" y="10" width="24" height="20" rx="5" fill="none" stroke="#34d399"
+                          stroke-width="2.5" />
+                        <line x1="40" y1="14" x2="40" y2="26" stroke="#6ee7b7" stroke-width="2.5"
+                          stroke-linecap="round" />
+                        <line x1="34" y1="20" x2="46" y2="20" stroke="#6ee7b7" stroke-width="2.5"
+                          stroke-linecap="round" />
+                      </svg>
+                      <div class="proj-category-pill">Machine Learning</div>
+                      <div class="proj-date-pill">Apr – May 2025</div>
+                    </div>
+
+                    <div class="proj-body">
+                      <h3 class="proj-name">Disease Prediction — Ensemble ML</h3>
+                      <p class="proj-desc">
+                        Ensemble pipeline combining Random Forest, XGBoost &amp; Neural Networks on 4,920 patient
+                        records across
+                        131 symptoms and 41 diseases. Deployed as a Streamlit app with confidence-scored
+                        recommendations.
+                      </p>
+
+                      <div class="proj-features">
+                        <p class="proj-features-label">Key Features</p>
+                        <ul>
+                          <li>3-layer neural net with dropout regularization</li>
+                          <li>131 symptom inputs, 41 disease outputs</li>
+                          <li>Stratified split + StandardScaler normalization</li>
+                        </ul>
+                      </div>
+
+                      <div class="proj-stats-row">
+                        <span class="proj-stat-badge accent-green">97.6% Accuracy</span>
+                        <span class="proj-stat-badge accent-green">131 Symptoms</span>
+                        <span class="proj-stat-badge accent-green">41 Diseases</span>
+                      </div>
+
+                      <div class="proj-tech-row">
+                        <span>XGBoost</span><span>Random
+                          Forest</span><span>TensorFlow</span><span>Streamlit</span><span>Scikit-learn</span>
+                      </div>
+
+                      <div class="proj-actions">
+                        <a href="YOUR_GITHUB_LINK_HERE" target="_blank" rel="noopener" class="proj-git-btn">
+                          <svg viewBox="0 0 24 24" width="15" height="15" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="currentColor"
+                              d="M12 .8a11.2 11.2 0 0 0-3.5 21.8c.6.1.8-.2.8-.6v-2.1c-3.2.7-3.8-1.4-3.8-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.6.1-.6 1.1.1 1.7 1.1 1.7 1.1 1 1.7 2.6 1.2 3.2.9.1-.7.4-1.2.7-1.5-2.5-.3-5.2-1.3-5.2-5.7 0-1.3.5-2.3 1.2-3.2-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.2 0 4.5-2.7 5.5-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .4.2.7.8.6A11.2 11.2 0 0 0 12 .8Z" />
+                          </svg>
+                          GitHub
+                        </a>
+                        <div class="proj-status-badge status-deployed">
+                          <span class="status-dot"></span> Deployed
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </li>
+
+                <!-- 4. Image Classification -->
+                <li class="proj-card active" data-filter-item data-category="deep learning">
+                  <div class="proj-card-inner">
+
+                    <div class="proj-thumb thumb-imgcls">
+                      <div class="proj-thumb-bg"></div>
+                      <svg class="proj-thumb-icon" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="8" y="16" width="64" height="48" rx="7" fill="none" stroke="#f59e0b"
+                          stroke-width="3" />
+                        <circle cx="26" cy="32" r="8" fill="none" stroke="#fbbf24" stroke-width="2.5" />
+                        <path fill="none" stroke="#fcd34d" stroke-width="2.8" stroke-linecap="round"
+                          stroke-linejoin="round" d="M8 52l18-18 12 12 14-16 20 22" />
+                        <rect x="54" y="10" width="16" height="16" rx="4" fill="#78350f" stroke="#f59e0b"
+                          stroke-width="1.8" />
+                        <path d="M58 18h8M62 14v8" stroke="#fde68a" stroke-width="2" stroke-linecap="round" />
+                      </svg>
+                      <div class="proj-category-pill">Deep Learning</div>
+                      <div class="proj-date-pill">Oct – Nov 2025</div>
+                    </div>
+
+                    <div class="proj-body">
+                      <h3 class="proj-name">Image Classification Web App</h3>
+                      <p class="proj-desc">
+                        CNN classifier using ResNet &amp; VGG with transfer learning and data augmentation. OpenCV
+                        preprocessing
+                        pipeline with TensorFlow/Keras training — production-ready UI delivering instant predictions.
+                      </p>
+
+                      <div class="proj-features">
+                        <p class="proj-features-label">Key Features</p>
+                        <ul>
+                          <li>ResNet + VGG dual-architecture support</li>
+                          <li>Data augmentation for generalization</li>
+                          <li>Real-time inference with responsive UI</li>
+                        </ul>
+                      </div>
+
+                      <div class="proj-stats-row">
+                        <span class="proj-stat-badge accent-amber">96%+ Accuracy</span>
+                        <span class="proj-stat-badge accent-amber">Transfer Learning</span>
+                      </div>
+
+                      <div class="proj-tech-row">
+                        <span>ResNet</span><span>VGG</span><span>Keras</span><span>OpenCV</span><span>TensorFlow</span>
+                      </div>
+
+                      <div class="proj-actions">
+                        <a href="YOUR_GITHUB_LINK_HERE" target="_blank" rel="noopener" class="proj-git-btn">
+                          <svg viewBox="0 0 24 24" width="15" height="15" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="currentColor"
+                              d="M12 .8a11.2 11.2 0 0 0-3.5 21.8c.6.1.8-.2.8-.6v-2.1c-3.2.7-3.8-1.4-3.8-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.6.1-.6 1.1.1 1.7 1.1 1.7 1.1 1 1.7 2.6 1.2 3.2.9.1-.7.4-1.2.7-1.5-2.5-.3-5.2-1.3-5.2-5.7 0-1.3.5-2.3 1.2-3.2-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.2 0 4.5-2.7 5.5-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .4.2.7.8.6A11.2 11.2 0 0 0 12 .8Z" />
+                          </svg>
+                          GitHub
+                        </a>
+                        <div class="proj-status-badge status-completed">
+                          <span class="status-dot"></span> Completed
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </li>
+
+                <!-- 5. Deadlock Detection -->
+                <li class="proj-card active" data-filter-item data-category="systems">
+                  <div class="proj-card-inner">
+
+                    <div class="proj-thumb thumb-deadlock">
+                      <div class="proj-thumb-bg"></div>
+                      <svg class="proj-thumb-icon" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="20" cy="20" r="10" fill="none" stroke="#e879f9" stroke-width="2.8" />
+                        <circle cx="60" cy="20" r="10" fill="none" stroke="#e879f9" stroke-width="2.8" />
+                        <circle cx="20" cy="60" r="10" fill="none" stroke="#e879f9" stroke-width="2.8" />
+                        <circle cx="60" cy="60" r="10" fill="none" stroke="#e879f9" stroke-width="2.8" />
+                        <path fill="none" stroke="#d946ef" stroke-width="2" stroke-linecap="round"
+                          stroke-dasharray="5 4" d="M30 20h20M20 30v20M60 30v20M30 60h20" />
+                        <circle cx="40" cy="40" r="7" fill="#4a044e" stroke="#e879f9" stroke-width="2" />
+                        <line x1="37" y1="40" x2="43" y2="40" stroke="#f0abfc" stroke-width="2.2"
+                          stroke-linecap="round" />
+                      </svg>
+                      <div class="proj-category-pill">Systems</div>
+                      <div class="proj-date-pill">Academic</div>
+                    </div>
+
+                    <div class="proj-body">
+                      <h3 class="proj-name">Automate Deadlock Detection Tool</h3>
+                      <p class="proj-desc">
+                        Web-based tool that accepts process-resource dependencies and detects deadlocks using DFS cycle
+                        detection
+                        on resource allocation graphs. RESTful JSON API deployed on Render.
+                      </p>
+
+                      <div class="proj-features">
+                        <p class="proj-features-label">Key Features</p>
+                        <ul>
+                          <li>DFS-based cycle detection algorithm</li>
+                          <li>Interactive graph-based UI input</li>
+                          <li>REST API with JSON communication</li>
+                        </ul>
+                      </div>
+
+                      <div class="proj-stats-row">
+                        <span class="proj-stat-badge accent-pink">Graph-Based</span>
+                        <span class="proj-stat-badge accent-pink">Flask + Render</span>
+                      </div>
+
+                      <div class="proj-tech-row">
+                        <span>Python</span><span>Flask</span><span>DFS</span><span>REST
+                          API</span><span>JavaScript</span>
+                      </div>
+
+                      <div class="proj-actions">
+                        <a href="YOUR_GITHUB_LINK_HERE" target="_blank" rel="noopener" class="proj-git-btn">
+                          <svg viewBox="0 0 24 24" width="15" height="15" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="currentColor"
+                              d="M12 .8a11.2 11.2 0 0 0-3.5 21.8c.6.1.8-.2.8-.6v-2.1c-3.2.7-3.8-1.4-3.8-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.6.1-.6 1.1.1 1.7 1.1 1.7 1.1 1 1.7 2.6 1.2 3.2.9.1-.7.4-1.2.7-1.5-2.5-.3-5.2-1.3-5.2-5.7 0-1.3.5-2.3 1.2-3.2-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.2 0 4.5-2.7 5.5-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .4.2.7.8.6A11.2 11.2 0 0 0 12 .8Z" />
+                          </svg>
+                          GitHub
+                        </a>
+                        <div class="proj-status-badge status-deployed">
+                          <span class="status-dot"></span> Deployed
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </li>
+
+                <!-- 6. Ace Bank -->
+                <li class="proj-card active" data-filter-item data-category="web app">
+                  <div class="proj-card-inner">
+
+                    <div class="proj-thumb thumb-bank">
+                      <div class="proj-thumb-bg"></div>
+                      <svg class="proj-thumb-icon" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="10" y="36" width="60" height="34" rx="5" fill="none" stroke="#38bdf8"
+                          stroke-width="3" />
+                        <path fill="none" stroke="#7dd3fc" stroke-width="3" stroke-linecap="round"
+                          stroke-linejoin="round" d="M14 36L40 12l26 24" />
+                        <rect x="30" y="50" width="20" height="20" rx="3" fill="none" stroke="#38bdf8"
+                          stroke-width="2.2" />
+                        <line x1="24" y1="44" x2="24" y2="70" stroke="#7dd3fc" stroke-width="2"
+                          stroke-linecap="round" />
+                        <line x1="56" y1="44" x2="56" y2="70" stroke="#7dd3fc" stroke-width="2"
+                          stroke-linecap="round" />
+                        <line x1="34" y1="60" x2="46" y2="60" stroke="#bae6fd" stroke-width="1.8"
+                          stroke-linecap="round" />
+                      </svg>
+                      <div class="proj-category-pill">Web App</div>
+                      <div class="proj-date-pill">Academic</div>
+                    </div>
+
+                    <div class="proj-body">
+                      <h3 class="proj-name">Ace Bank — Banking System</h3>
+                      <p class="proj-desc">
+                        Full-featured banking system with account management, secure fund transfers, transaction
+                        history, and
+                        role-based access control for customers and administrators.
+                      </p>
+
+                      <div class="proj-features">
+                        <p class="proj-features-label">Key Features</p>
+                        <ul>
+                          <li>Role-based access: customer &amp; admin</li>
+                          <li>Secure fund transfer &amp; transaction logs</li>
+                          <li>RESTful API with Spring Security</li>
+                        </ul>
+                      </div>
+
+                      <div class="proj-stats-row">
+                        <span class="proj-stat-badge accent-blue">Full-Stack</span>
+                        <span class="proj-stat-badge accent-blue">Secure Auth</span>
+                      </div>
+
+                      <div class="proj-tech-row">
+                        <span>Java</span><span>Spring Boot</span><span>Spring
+                          Security</span><span>MySQL</span><span>REST API</span>
+                      </div>
+
+                      <div class="proj-actions">
+                        <a href="YOUR_GITHUB_LINK_HERE" target="_blank" rel="noopener" class="proj-git-btn">
+                          <svg viewBox="0 0 24 24" width="15" height="15" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="currentColor"
+                              d="M12 .8a11.2 11.2 0 0 0-3.5 21.8c.6.1.8-.2.8-.6v-2.1c-3.2.7-3.8-1.4-3.8-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.6.1-.6 1.1.1 1.7 1.1 1.7 1.1 1 1.7 2.6 1.2 3.2.9.1-.7.4-1.2.7-1.5-2.5-.3-5.2-1.3-5.2-5.7 0-1.3.5-2.3 1.2-3.2-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.2 0 4.5-2.7 5.5-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .4.2.7.8.6A11.2 11.2 0 0 0 12 .8Z" />
+                          </svg>
+                          GitHub
+                        </a>
+                        <div class="proj-status-badge status-completed">
+                          <span class="status-dot"></span> Completed
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </li>
+
+              </ul>
+
+            </section>
+
+          </article>
+
+          <!-- --------------------------------------------------------------------------------------- -->
+          <article class="portfolio" data-page="certificates">
+
+            <header>
+              <h2 class="h2 article-title">Certificates</h2>
+            </header>
+
+            <section class="certificates">
+
+              <ul class="filter-list">
+                <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+                <li class="filter-item"><button data-filter-btn>Machine Learning</button></li>
+                <li class="filter-item"><button data-filter-btn>Web Dev</button></li>
+                <li class="filter-item"><button data-filter-btn>Systems</button></li>
+                <li class="filter-item"><button data-filter-btn>Professional</button></li>
+              </ul>
+
+              <div class="filter-select-box">
+                <button class="filter-select" data-select>
+                  <div class="select-value" data-select-value>Select category</div>
+                  <div class="select-icon"><ion-icon name="chevron-down"></ion-icon></div>
+                </button>
+                <ul class="select-list">
+                  <li class="select-item"><button data-select-item>All</button></li>
+                  <li class="select-item"><button data-select-item>Machine Learning</button></li>
+                  <li class="select-item"><button data-select-item>Web Dev</button></li>
+                  <li class="select-item"><button data-select-item>Systems</button></li>
+                  <li class="select-item"><button data-select-item>Professional</button></li>
+                </ul>
+              </div>
+
+              <ul class="cert-grid">
+
+                <!-- 1. Google ML Crash Course -->
+                <li class="cert-card active" data-filter-item data-category="machine learning">
+                  <div class="cert-card-inner">
+
+                    <div class="cert-thumb thumb-google-ml">
+                      <div class="cert-thumb-bg"></div>
+                      <svg class="cert-thumb-icon" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="40" cy="36" r="18" fill="none" stroke="#f87171" stroke-width="3" />
+                        <circle cx="40" cy="36" r="10" fill="none" stroke="#fca5a5" stroke-width="2" />
+                        <circle cx="40" cy="36" r="3" fill="#f87171" />
+                        <line x1="40" y1="14" x2="40" y2="8" stroke="#fca5a5" stroke-width="2.5"
+                          stroke-linecap="round" />
+                        <line x1="40" y1="58" x2="40" y2="64" stroke="#fca5a5" stroke-width="2.5"
+                          stroke-linecap="round" />
+                        <line x1="18" y1="36" x2="12" y2="36" stroke="#fca5a5" stroke-width="2.5"
+                          stroke-linecap="round" />
+                        <line x1="62" y1="36" x2="68" y2="36" stroke="#fca5a5" stroke-width="2.5"
+                          stroke-linecap="round" />
+                        <path fill="none" stroke="#fcd34d" stroke-width="2" stroke-linecap="round"
+                          d="M28 60h24M34 65h12" />
+                      </svg>
+                      <div class="cert-category-pill">Machine Learning</div>
+                      <div class="cert-date-pill">Nov 2025</div>
+                    </div>
+
+                    <div class="cert-body">
+                      <div class="cert-issuer-row">
+                        <span class="cert-issuer-logo cert-issuer-google">G</span>
+                        <span class="cert-issuer-name">Google</span>
+                      </div>
+                      <h3 class="cert-name">Machine Learning Crash Course</h3>
+                      <p class="cert-desc">
+                        Covered Linear &amp; Logistic Regression, Classification, Neural Networks, Embeddings, and LLMs.
+                        Hands-on with gradient descent, feature engineering, hyperparameter tuning, and ML Fairness.
+                      </p>
+
+                      <div class="cert-skills-row">
+                        <span class="cert-skill-tag">Machine Learning</span>
+                        <span class="cert-skill-tag">LLMs</span>
+                        <span class="cert-skill-tag">Neural Networks</span>
+                        <span class="cert-skill-tag">AutoML</span>
+                      </div>
+
+                      <div class="cert-actions">
+                        <a href="#" target="_blank" rel="noopener" class="cert-cred-btn">
+                          <svg viewBox="0 0 24 24" width="14" height="14" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="currentColor"
+                              d="M12 1a11 11 0 1 0 0 22A11 11 0 0 0 12 1Zm0 2a9 9 0 1 1 0 18A9 9 0 0 1 12 3Zm0 4a1 1 0 0 0-1 1v5l3.5 2.1.5-.9-3-1.8V8a1 1 0 0 0-1-1Z" />
+                          </svg>
+                          View Credential
+                        </a>
+                        <div class="cert-id-badge">Google Developer Program</div>
+                      </div>
+                    </div>
+
+                  </div>
+                </li>
+
+                <!-- 2. Software Dev Processes - U of Minnesota -->
+                <li class="cert-card active" data-filter-item data-category="systems">
+                  <div class="cert-card-inner">
+
+                    <div class="cert-thumb thumb-umn">
+                      <div class="cert-thumb-bg"></div>
+                      <svg class="cert-thumb-icon" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="12" y="28" width="56" height="38" rx="6" fill="none" stroke="#818cf8"
+                          stroke-width="3" />
+                        <path fill="none" stroke="#a5b4fc" stroke-width="2.5" stroke-linecap="round"
+                          stroke-linejoin="round" d="M22 38h36M22 46h24M22 54h18" />
+                        <path fill="none" stroke="#818cf8" stroke-width="3" stroke-linecap="round"
+                          stroke-linejoin="round" d="M16 28L40 10l24 18" />
+                        <circle cx="58" cy="24" r="8" fill="#312e81" stroke="#818cf8" stroke-width="2" />
+                        <path d="M55 24l2 2 4-4" stroke="#c7d2fe" stroke-width="1.8" stroke-linecap="round"
+                          stroke-linejoin="round" />
+                      </svg>
+                      <div class="cert-category-pill">Systems</div>
+                      <div class="cert-date-pill">May 2024</div>
+                    </div>
+
+                    <div class="cert-body">
+                      <div class="cert-issuer-row">
+                        <span class="cert-issuer-logo cert-issuer-purple">U</span>
+                        <span class="cert-issuer-name">University of Minnesota</span>
+                      </div>
+                      <h3 class="cert-name">Software Development Processes &amp; Methodologies</h3>
+                      <p class="cert-desc">
+                        Deep dive into Agile, Scrum, Kanban, and Waterfall methodologies. Covers sprint planning, code
+                        review practices, CI/CD pipelines, and collaborative software engineering workflows.
+                      </p>
+
+                      <div class="cert-skills-row">
+                        <span class="cert-skill-tag">Agile</span>
+                        <span class="cert-skill-tag">Scrum</span>
+                        <span class="cert-skill-tag">CI/CD</span>
+                        <span class="cert-skill-tag">Software Engineering</span>
+                      </div>
+
+                      <div class="cert-actions">
+                        <a href="#" target="_blank" rel="noopener" class="cert-cred-btn">
+                          <svg viewBox="0 0 24 24" width="14" height="14" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="currentColor"
+                              d="M12 1a11 11 0 1 0 0 22A11 11 0 0 0 12 1Zm0 2a9 9 0 1 1 0 18A9 9 0 0 1 12 3Zm0 4a1 1 0 0 0-1 1v5l3.5 2.1.5-.9-3-1.8V8a1 1 0 0 0-1-1Z" />
+                          </svg>
+                          View Credential
+                        </a>
+                        <div class="cert-id-badge">ID: DQ37VZ96LBNZ</div>
+                      </div>
+                    </div>
+
+                  </div>
+                </li>
+
+                <!-- 3. Fundamentals of Network Communication - U of Colorado -->
+                <li class="cert-card active" data-filter-item data-category="systems">
+                  <div class="cert-card-inner">
+
+                    <div class="cert-thumb thumb-network">
+                      <div class="cert-thumb-bg"></div>
+                      <svg class="cert-thumb-icon" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="40" cy="40" r="7" fill="none" stroke="#34d399" stroke-width="3" />
+                        <circle cx="14" cy="24" r="6" fill="none" stroke="#6ee7b7" stroke-width="2.5" />
+                        <circle cx="66" cy="24" r="6" fill="none" stroke="#6ee7b7" stroke-width="2.5" />
+                        <circle cx="14" cy="56" r="6" fill="none" stroke="#6ee7b7" stroke-width="2.5" />
+                        <circle cx="66" cy="56" r="6" fill="none" stroke="#6ee7b7" stroke-width="2.5" />
+                        <line x1="19" y1="27" x2="34" y2="36" stroke="#34d399" stroke-width="2"
+                          stroke-linecap="round" />
+                        <line x1="61" y1="27" x2="46" y2="36" stroke="#34d399" stroke-width="2"
+                          stroke-linecap="round" />
+                        <line x1="19" y1="53" x2="34" y2="44" stroke="#34d399" stroke-width="2"
+                          stroke-linecap="round" />
+                        <line x1="61" y1="53" x2="46" y2="44" stroke="#34d399" stroke-width="2"
+                          stroke-linecap="round" />
+                        <line x1="14" y1="30" x2="14" y2="50" stroke="#6ee7b7" stroke-width="1.5" stroke-dasharray="3 3"
+                          stroke-linecap="round" />
+                        <line x1="66" y1="30" x2="66" y2="50" stroke="#6ee7b7" stroke-width="1.5" stroke-dasharray="3 3"
+                          stroke-linecap="round" />
+                      </svg>
+                      <div class="cert-category-pill">Systems</div>
+                      <div class="cert-date-pill">Sep 2024</div>
+                    </div>
+
+                    <div class="cert-body">
+                      <div class="cert-issuer-row">
+                        <span class="cert-issuer-logo cert-issuer-green">C</span>
+                        <span class="cert-issuer-name">University of Colorado System</span>
+                      </div>
+                      <h3 class="cert-name">Fundamentals of Network Communication</h3>
+                      <p class="cert-desc">
+                        Comprehensive coverage of network architecture, data transmission, OSI and TCP/IP models, and
+                        communication protocols — building a solid foundation for network analysis and troubleshooting.
+                      </p>
+
+                      <div class="cert-skills-row">
+                        <span class="cert-skill-tag">TCP/IP</span>
+                        <span class="cert-skill-tag">OSI Model</span>
+                        <span class="cert-skill-tag">Networking</span>
+                        <span class="cert-skill-tag">Protocols</span>
+                      </div>
+
+                      <div class="cert-actions">
+                        <a href="#" target="_blank" rel="noopener" class="cert-cred-btn">
+                          <svg viewBox="0 0 24 24" width="14" height="14" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="currentColor"
+                              d="M12 1a11 11 0 1 0 0 22A11 11 0 0 0 12 1Zm0 2a9 9 0 1 1 0 18A9 9 0 0 1 12 3Zm0 4a1 1 0 0 0-1 1v5l3.5 2.1.5-.9-3-1.8V8a1 1 0 0 0-1-1Z" />
+                          </svg>
+                          View Credential
+                        </a>
+                        <div class="cert-id-badge">ID: XC4H6NHTE07D</div>
+                      </div>
+                    </div>
+
+                  </div>
+                </li>
+
+                <!-- 4. TCS iON Career Edge -->
+                <li class="cert-card active" data-filter-item data-category="professional">
+                  <div class="cert-card-inner">
+
+                    <div class="cert-thumb thumb-tcs">
+                      <div class="cert-thumb-bg"></div>
+                      <svg class="cert-thumb-icon" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="18" y="20" width="44" height="34" rx="5" fill="none" stroke="#f59e0b"
+                          stroke-width="3" />
+                        <path fill="none" stroke="#fbbf24" stroke-width="2.5" stroke-linecap="round"
+                          d="M28 32h24M28 39h18" />
+                        <path fill="none" stroke="#fcd34d" stroke-width="2.5" stroke-linecap="round"
+                          d="M30 58h20M26 54h28" />
+                        <circle cx="40" cy="30" r="5" fill="none" stroke="#f59e0b" stroke-width="2" />
+                        <path d="M36 38v-4a4 4 0 0 1 8 0v4" fill="none" stroke="#fbbf24" stroke-width="1.8"
+                          stroke-linecap="round" />
+                      </svg>
+                      <div class="cert-category-pill">Professional</div>
+                      <div class="cert-date-pill">Oct 2023</div>
+                    </div>
+
+                    <div class="cert-body">
+                      <div class="cert-issuer-row">
+                        <span class="cert-issuer-logo cert-issuer-amber">T</span>
+                        <span class="cert-issuer-name">TCS iON</span>
+                      </div>
+                      <h3 class="cert-name">Career Edge — Young Professional</h3>
+                      <p class="cert-desc">
+                        Professional readiness program covering communication, presentation, resume writing, interview
+                        prep,
+                        business etiquette, IT fundamentals, and an overview of Artificial Intelligence.
+                      </p>
+
+                      <div class="cert-skills-row">
+                        <span class="cert-skill-tag">Communication</span>
+                        <span class="cert-skill-tag">Interview Prep</span>
+                        <span class="cert-skill-tag">Business Etiquette</span>
+                        <span class="cert-skill-tag">AI Overview</span>
+                      </div>
+
+                      <div class="cert-actions">
+                        <a href="#" target="_blank" rel="noopener" class="cert-cred-btn">
+                          <svg viewBox="0 0 24 24" width="14" height="14" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="currentColor"
+                              d="M12 1a11 11 0 1 0 0 22A11 11 0 0 0 12 1Zm0 2a9 9 0 1 1 0 18A9 9 0 0 1 12 3Zm0 4a1 1 0 0 0-1 1v5l3.5 2.1.5-.9-3-1.8V8a1 1 0 0 0-1-1Z" />
+                          </svg>
+                          View Credential
+                        </a>
+                        <div class="cert-id-badge">Interpersonal Skills</div>
+                      </div>
+                    </div>
+
+                  </div>
+                </li>
+
+                <!-- 5. Generative AI No-Code - Udemy -->
+                <li class="cert-card active" data-filter-item data-category="machine learning">
+                  <div class="cert-card-inner">
+
+                    <div class="cert-thumb thumb-genai">
+                      <div class="cert-thumb-bg"></div>
+                      <svg class="cert-thumb-icon" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="14" y="26" width="52" height="36" rx="7" fill="none" stroke="#e879f9"
+                          stroke-width="3" />
+                        <circle cx="30" cy="36" r="5" fill="none" stroke="#f0abfc" stroke-width="2.2" />
+                        <circle cx="50" cy="36" r="5" fill="none" stroke="#f0abfc" stroke-width="2.2" />
+                        <path fill="none" stroke="#e879f9" stroke-width="2.2" stroke-linecap="round"
+                          d="M20 50 Q30 42 40 50 Q50 58 60 50" />
+                        <path fill="none" stroke="#d946ef" stroke-width="2" stroke-dasharray="3 3"
+                          stroke-linecap="round" d="M40 14 L40 26" />
+                        <circle cx="40" cy="12" r="4" fill="none" stroke="#e879f9" stroke-width="2.2" />
+                        <path d="M37 12h6M40 9v6" stroke="#f0abfc" stroke-width="1.8" stroke-linecap="round" />
+                      </svg>
+                      <div class="cert-category-pill">Machine Learning</div>
+                      <div class="cert-date-pill">Aug 2025</div>
+                    </div>
+
+                    <div class="cert-body">
+                      <div class="cert-issuer-row">
+                        <span class="cert-issuer-logo cert-issuer-pink">U</span>
+                        <span class="cert-issuer-name">Udemy</span>
+                      </div>
+                      <h3 class="cert-name">Build Generative AI Apps with No-Code Tools</h3>
+                      <p class="cert-desc">
+                        Practical skills in building AI-powered applications using no-code platforms. Covers workflow
+                        automation, prompt engineering, and deploying generative AI solutions without extensive coding.
+                      </p>
+
+                      <div class="cert-skills-row">
+                        <span class="cert-skill-tag">Generative AI</span>
+                        <span class="cert-skill-tag">No-Code</span>
+                        <span class="cert-skill-tag">Automation</span>
+                        <span class="cert-skill-tag">Prompt Engineering</span>
+                      </div>
+
+                      <div class="cert-actions">
+                        <a href="#" target="_blank" rel="noopener" class="cert-cred-btn">
+                          <svg viewBox="0 0 24 24" width="14" height="14" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="currentColor"
+                              d="M12 1a11 11 0 1 0 0 22A11 11 0 0 0 12 1Zm0 2a9 9 0 1 1 0 18A9 9 0 0 1 12 3Zm0 4a1 1 0 0 0-1 1v5l3.5 2.1.5-.9-3-1.8V8a1 1 0 0 0-1-1Z" />
+                          </svg>
+                          View Credential
+                        </a>
+                        <div class="cert-id-badge">Automation</div>
+                      </div>
+                    </div>
+
+                  </div>
+                </li>
+
+                <!-- 6. DSA Using Java - CipherSchools -->
+                <li class="cert-card active" data-filter-item data-category="systems">
+                  <div class="cert-card-inner">
+
+                    <div class="cert-thumb thumb-dsa">
+                      <div class="cert-thumb-bg"></div>
+                      <svg class="cert-thumb-icon" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="10" y="14" width="20" height="14" rx="4" fill="none" stroke="#38bdf8"
+                          stroke-width="2.5" />
+                        <rect x="30" y="34" width="20" height="14" rx="4" fill="none" stroke="#38bdf8"
+                          stroke-width="2.5" />
+                        <rect x="50" y="54" width="20" height="14" rx="4" fill="none" stroke="#38bdf8"
+                          stroke-width="2.5" />
+                        <line x1="20" y1="28" x2="40" y2="34" stroke="#7dd3fc" stroke-width="2"
+                          stroke-linecap="round" />
+                        <line x1="40" y1="48" x2="60" y2="54" stroke="#7dd3fc" stroke-width="2"
+                          stroke-linecap="round" />
+                        <line x1="30" y1="21" x2="68" y2="21" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="3 3"
+                          stroke-linecap="round" />
+                        <circle cx="68" cy="21" r="3" fill="#38bdf8" />
+                        <text x="14" y="25" fill="#7dd3fc" font-size="7" font-family="monospace"
+                          font-weight="bold">O(n)</text>
+                      </svg>
+                      <div class="cert-category-pill">Systems</div>
+                      <div class="cert-date-pill">Jun 2025</div>
+                    </div>
+
+                    <div class="cert-body">
+                      <div class="cert-issuer-row">
+                        <span class="cert-issuer-logo cert-issuer-blue">C</span>
+                        <span class="cert-issuer-name">CipherSchools</span>
+                      </div>
+                      <h3 class="cert-name">DSA Using Java Programming</h3>
+                      <p class="cert-desc">
+                        70-hour intensive training in Data Structures and Algorithms using Java. Covers arrays, trees,
+                        graphs, dynamic programming, and algorithmic problem-solving with hands-on Java implementation.
+                      </p>
+
+                      <div class="cert-skills-row">
+                        <span class="cert-skill-tag">Java</span>
+                        <span class="cert-skill-tag">Data Structures</span>
+                        <span class="cert-skill-tag">Algorithms</span>
+                        <span class="cert-skill-tag">70 Hours</span>
+                      </div>
+
+                      <div class="cert-actions">
+                        <a href="#" target="_blank" rel="noopener" class="cert-cred-btn">
+                          <svg viewBox="0 0 24 24" width="14" height="14" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="currentColor"
+                              d="M12 1a11 11 0 1 0 0 22A11 11 0 0 0 12 1Zm0 2a9 9 0 1 1 0 18A9 9 0 0 1 12 3Zm0 4a1 1 0 0 0-1 1v5l3.5 2.1.5-.9-3-1.8V8a1 1 0 0 0-1-1Z" />
+                          </svg>
+                          View Credential
+                        </a>
+                        <div class="cert-id-badge">Java · DSA</div>
+                      </div>
+                    </div>
+
+                  </div>
+                </li>
+
+                <!-- 7. Responsive Web Design - freeCodeCamp -->
+                <li class="cert-card active" data-filter-item data-category="web dev">
+                  <div class="cert-card-inner">
+
+                    <div class="cert-thumb thumb-rwd">
+                      <div class="cert-thumb-bg"></div>
+                      <svg class="cert-thumb-icon" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="8" y="20" width="64" height="40" rx="6" fill="none" stroke="#34d399"
+                          stroke-width="3" />
+                        <rect x="22" y="30" width="36" height="22" rx="4" fill="none" stroke="#6ee7b7"
+                          stroke-width="2" />
+                        <rect x="32" y="38" width="16" height="12" rx="3" fill="none" stroke="#6ee7b7"
+                          stroke-width="1.8" />
+                        <line x1="40" y1="60" x2="40" y2="68" stroke="#34d399" stroke-width="2.5"
+                          stroke-linecap="round" />
+                        <line x1="30" y1="68" x2="50" y2="68" stroke="#6ee7b7" stroke-width="2.5"
+                          stroke-linecap="round" />
+                        <path fill="none" stroke="#fcd34d" stroke-width="2" stroke-linecap="round"
+                          d="M15 30 l-5 6 5 6M65 30 l5 6-5 6" />
+                      </svg>
+                      <div class="cert-category-pill">Web Dev</div>
+                      <div class="cert-date-pill">Oct 2023</div>
+                    </div>
+
+                    <div class="cert-body">
+                      <div class="cert-issuer-row">
+                        <span class="cert-issuer-logo cert-issuer-green">f</span>
+                        <span class="cert-issuer-name">freeCodeCamp</span>
+                      </div>
+                      <h3 class="cert-name">Responsive Web Design</h3>
+                      <p class="cert-desc">
+                        300+ hours of learning in HTML5, CSS3, Flexbox, CSS Grid, and responsive design principles.
+                        Built accessible, mobile-first web layouts with modern CSS techniques.
+                      </p>
+
+                      <div class="cert-skills-row">
+                        <span class="cert-skill-tag">HTML5</span>
+                        <span class="cert-skill-tag">CSS3</span>
+                        <span class="cert-skill-tag">Flexbox</span>
+                        <span class="cert-skill-tag">CSS Grid</span>
+                        <span class="cert-skill-tag">300+ Hours</span>
+                      </div>
+
+                      <div class="cert-actions">
+                        <a href="#" target="_blank" rel="noopener" class="cert-cred-btn">
+                          <svg viewBox="0 0 24 24" width="14" height="14" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="currentColor"
+                              d="M12 1a11 11 0 1 0 0 22A11 11 0 0 0 12 1Zm0 2a9 9 0 1 1 0 18A9 9 0 0 1 12 3Zm0 4a1 1 0 0 0-1 1v5l3.5 2.1.5-.9-3-1.8V8a1 1 0 0 0-1-1Z" />
+                          </svg>
+                          View Credential
+                        </a>
+                        <div class="cert-id-badge">Responsive Web Design</div>
+                      </div>
+                    </div>
+
+                  </div>
+                </li>
+
+              </ul>
+
+            </section>
+
+          </article>
+          <!-- ------------------------------------------------------------------------------------------------- -->
+          <!--
+        - #ASK MY PORTFOLIO
+      -->
+
+          <!-- Resume Section -->
+          <article class="contact" data-page="contact">
+            <section id="resume" style="padding: 80px 20px; background: #0b0f19;">
+
+              <!-- <h2 style="
+    text-align: center;
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    color: #ffffff;
+    letter-spacing: 1px;
+  ">
+    Resume
+  </h2> -->
+
+              <div style="
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  ">
+
+                <!-- Resume Image -->
+                <div style="
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    ">
+                  <img src="assets/images/resume.png" alt="My Resume" onclick="window.open(this.src)" style="
+          width: 100%;
+          max-width: 900px;
+          border-radius: 16px;
+          border: 1px solid rgba(255,255,255,0.1);
+          box-shadow: 0 0 30px rgba(0,255,200,0.15);
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+          cursor: zoom-in;
+        " onmouseover="this.style.transform='scale(1.03)'; this.style.boxShadow='0 0 40px rgba(0,255,200,0.25)'"
+                    onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 0 30px rgba(0,255,200,0.15)'">
+                </div>
+
+                <!-- Download Button -->
+                <a href="assets/resume.jpg" download style="
+      padding: 12px 28px;
+      border-radius: 30px;
+      text-decoration: none;
+      color: #0b0f19;
+      background: #00ffc8;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 15px rgba(0,255,200,0.3);
+    " onmouseover="this.style.background='#00e6b8'; this.style.transform='scale(1.05)'"
+                  onmouseout="this.style.background='#00ffc8'; this.style.transform='scale(1)'">
+                  Download Resume
+                </a>
+
+              </div>
+
+            </section>
+          </article>
+
+          <!------------------------------------------------------------------------------------------- -->
+          <!-- ===================== CONTACT SECTION ===================== -->
+          <article class="contact" data-page="contact">
+
+            <header>
+              <h2 class="h2 article-title">Contact</h2>
+            </header>
+
+            <section class="contact-section">
+
+              <!-- Contact Info Cards -->
+              <ul class="contact-info-list">
+
+                <li class="contact-info-item">
+                  <div class="contact-info-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="2" y="4" width="20" height="16" rx="3" />
+                      <path d="M2 7l10 7 10-7" />
+                    </svg>
+                  </div>
+                  <div class="contact-info-content">
+                    <p class="contact-info-label">Email</p>
+                    <a href="mailto:mdparvez5546@email.com" class="contact-info-value">mdparvez5546@email.com</a>
+                  </div>
+                </li>
+
+                <li class="contact-info-item">
+                  <div class="contact-info-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                      <path
+                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.78a16 16 0 0 0 6 6l.93-.93a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92Z" />
+                    </svg>
+                  </div>
+                  <div class="contact-info-content">
+                    <p class="contact-info-label">Phone</p>
+                    <a href="tel:+917217742987" class="contact-info-value">+91 7217742987</a>
+                  </div>
+                </li>
+
+                <li class="contact-info-item">
+                  <div class="contact-info-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6Z" />
+                      <rect x="2" y="9" width="4" height="12" />
+                      <circle cx="4" cy="4" r="2" />
+                    </svg>
+                  </div>
+                  <div class="contact-info-content">
+                    <p class="contact-info-label">LinkedIn</p>
+                    <a href="https://linkedin.com/in/mdparvezuddin" target="_blank" rel="noopener"
+                      class="contact-info-value">linkedin.com/in/mdparvezuddin</a>
+                  </div>
+                </li>
+
+                <!-- <li class="contact-info-item">
+        <div class="contact-info-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 .8a11.2 11.2 0 0 0-3.5 21.8c.6.1.8-.2.8-.6v-2.1c-3.2.7-3.8-1.4-3.8-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.6.1-.6 1.1.1 1.7 1.1 1.7 1.1 1 1.7 2.6 1.2 3.2.9.1-.7.4-1.2.7-1.5-2.5-.3-5.2-1.3-5.2-5.7 0-1.3.5-2.3 1.2-3.2-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.2 0 4.5-2.7 5.5-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .4.2.7.8.6A11.2 11.2 0 0 0 12 .8Z"/>
+          </svg>
+        </div> -->
+                <div class="contact-info-content">
+                  <!-- <p class="contact-info-label">GitHub</p>
+          <a href="https://github.com/yourusername" target="_blank" rel="noopener" class="contact-info-value">github.com/yourusername</a>
+        </div> -->
+                  <!-- </li>  -->
+
+              </ul>
+
+              <!-- Contact Form -->
+              <div class="contact-form-wrapper">
+                <h3 class="contact-form-title">Send a Message</h3>
+                <p class="contact-form-subtitle">Have a project in mind or just want to say hello? Drop a message below.
+                </p>
+
+                <form action="#" class="contact-form" id="contactForm">
+
+                  <div class="form-row">
+                    <div class="form-group">
+                      <label class="form-label" for="fullname">Full Name</label>
+                      <input class="form-input" type="text" id="fullname" name="fullname" placeholder="John Doe"
+                        required />
+                    </div>
+                    <div class="form-group">
+                      <label class="form-label" for="email">Email Address</label>
+                      <input class="form-input" type="email" id="email" name="email" placeholder="john@example.com"
+                        required />
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-label" for="subject">Subject</label>
+                    <input class="form-input" type="text" id="subject" name="subject"
+                      placeholder="Project Collaboration" required />
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-label" for="message">Message</label>
+                    <textarea class="form-input form-textarea" id="message" name="message" rows="5"
+                      placeholder="Tell me about your project or just say hi..." required></textarea>
+                  </div>
+
+                  <button class="form-submit" type="submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <line x1="22" y1="2" x2="11" y2="13" />
+                      <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                    </svg>
+                    Send Message
+                  </button>
+
+                </form>
+              </div>
+
+            </section>
+
+          </article>
+          <!-- ------------------------------------------------------------------------------------------ -->
+        </div>
+
+      </main>
+
+      <div class="cert-lightbox" data-cert-lightbox>
+        <div class="cert-lightbox__overlay" data-cert-lightbox-close></div>
+
+        <div class="cert-lightbox__content" role="dialog" aria-modal="true" aria-label="Certificate preview">
+          <button class="cert-lightbox__close" type="button" aria-label="Close" data-cert-lightbox-close>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <img class="cert-lightbox__img" data-cert-lightbox-img alt="" src="">
+
+          <a class="cert-lightbox__source" data-cert-lightbox-source href="" target="_blank"
+            rel="noopener noreferrer">View Original</a>
+        </div>
+      </div>
+
+      <!--
+    - custom js link
+  -->
+      <script src="./assets/js/script.js"></script>
+
+      <!--
+    - ionicon link
+  -->
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    </body>
+
+</html>
